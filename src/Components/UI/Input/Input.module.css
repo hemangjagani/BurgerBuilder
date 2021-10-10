@@ -1,0 +1,33 @@
+
+.input input,
+.input select   
+{
+    /* border:1px solid #ccc; */
+    padding: 6px 10px;
+    margin: 10px  auto;
+    width: 100%;
+    font: inherit;
+    display: block;
+    width: 50%;
+    box-sizing: border-box;
+    
+}
+input:focus{
+    outline: none;
+    background-color: #ccc;
+}
+select:focus{
+    outline: none;
+    background-color: #ccc;
+}
+
+.invalidClass{
+    border:1px solid red;
+ background-color: rgb(247, 162, 152);
+}
+.ValidationError {
+    font-size: smaller;
+    color: red;
+    text-align: left;
+    margin: -8px 160px;
+} 
